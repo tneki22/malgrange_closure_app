@@ -14,7 +14,13 @@
       ```bash
       pip install -r requirements.txt
    ```
-3. Сборка (Windows):
-   ```bash
+
+   2. Запуск:
+      ```bash
+      streamlit run app.py
+   ```
+
+   3. Сборка (Windows):
+      ```bash
    pyinstaller --onefile --add-data "templates;templates" app.py
    ```
